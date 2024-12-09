@@ -36,10 +36,12 @@ logger:
   level: DEBUG
 # Enable Home Assistant API
 api:
-
+  encryption:
+    key: "N+F7nNtboOvU6Z8aWiQ3fZTmO7dXpHgBUwgPxoUsrvM="
 ota:
   - platform: esphome
-
+    password: "cskf2008"
+    
 # This should point to the public location of this yaml file.
 dashboard_import:
   package_import_url: github://xqyang2008/esphome.presence-sensor/presence-sensor.yaml@main
